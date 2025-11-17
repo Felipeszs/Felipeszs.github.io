@@ -1,0 +1,38 @@
+.header{
+    padding: 40px 20px; /*Pad para desgrudar os itens*/
+    display: flex;/* Deixa os itens colados*/
+    justify-content: space-between; /*bem separados*/
+    align-items: center;/*Deixa um item alinhado ao centro do outro*/
+    max-width: 1200px; /*Para o site nao ficar infito em monitores grandes*/
+    margin: 0 auto;/*Margin para alinhar ao centro ja que fica muito grande a tela*/
+}
+.header-menu{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#nome-header{
+    font-size: 50px;
+    font-weight: bold;
+}
+.header-menu a{
+    font-size: 1.125rem;
+    line-height: 1.3;
+    padding: 10px 30px;/*Distancia entre um e outro*/
+    text-decoration: none;
+    color: #141414;
+    display: block;
+}
+
+@media (max-width: 800px){
+    .header{
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+    }
+    .header a{
+        background-color: #f5f5f5;
+        border-radius: 3px;
+    }
+}
