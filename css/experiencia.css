@@ -89,7 +89,7 @@
   }
   .experiencia .subtitulo {
     color: #141414;
-    font-size: 3rem;
+    font-size: 4rem;
     max-width: initial;
     word-break: normal;
   }
@@ -104,8 +104,14 @@
   }
 }
 
+
 @media (max-width: 400px) {
   .empresa {
     grid-template-columns: 1fr;
+  }
+  .experiencia .subtitulo{
+  font-size: 2.5rem;
+    max-width: initial;
+    word-break: normal;
   }
 }
