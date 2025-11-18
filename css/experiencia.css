@@ -89,6 +89,9 @@
   }
   .experiencia .subtitulo {
     color: #141414;
+    font-size: 3rem;
+    max-width: initial;
+    word-break: normal;
   }
   .experiencia-texto {
     font-size: 1.25rem;
